@@ -17,9 +17,23 @@ public class Team_Board {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		System.out.println("-------------------------------------");
 
 		Sami member1 = new Sami();
 		member1.printDetails();
+		
+		System.out.println("-------------------------------------");
+		
+		Saad member2 = new Saad();
+		member2.print();
+		
+		System.out.println("-------------------------------------");
+		
+		Javed member3 = new Javed();
+		member3.showInformation();
+		
+		System.out.println("-------------------------------------");
 
 	}
 }
